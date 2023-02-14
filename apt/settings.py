@@ -145,7 +145,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 #ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
-LOGIN_REDIRECT_URL = '/'
+LOGIN_REDIRECT_URL = 'core:index'
 
 #email settings
 EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
